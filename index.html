@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>DCSL Software - Technical Test</title>
+</head>
+<body>
+    <table>
+        <tr class="tableHeader" id="tableHeader">
+            <th>Name</th>
+            <th>Lap Count</th>
+            <th>Total Time</th>
+            <th>Average Time</th>
+            <th>Last Lap Time</th>
+        </tr>
+        <tr class="rowContainer hide">
+            <!-- <td><button id="rowRacerNameBtn">rowRacerNameBtn</button></td>
+            <td id="rowLapCount">rowLapCount</td>
+            <td id="rowTotaltime">0</td>
+            <td id="rowAverageTime">average Time</td>
+            <td id="rowLastLapTime">last LapTime</td>  -->
+        </tr>  
+    </table>
+
+    <div>
+        <span>
+            <h1 id="appTitle">1km Timer</h1>
+        </span>
+        <span>
+            <form>
+                <input id="inputName" placeholder="Name">
+                <button id="addNameBtn">Add Name</button>
+            </form>
+        </span>
+        <span>
+            <button id="startRaceBtn">Start Race</button>
+            <button id="endRaceBtn">End Race</button>  
+        </span> 
+
+        <h1 id="startDate" class="hidden"></h1>
+        <h1 id="startTime" class="hidden"></h1>
+        
+        
+        <h1 id="DisplayTimer" class="hidden"></h1>
+        
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="timer.js"></script>
+    <!-- <script src="OOP.js"></script> -->
+    <!-- <script src="trial.js"></script> -->
+</body>
+</html>
